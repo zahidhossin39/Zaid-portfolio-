@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* shared style  */
+/*! shared style  */
 .open-sans-fonts {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -18,6 +18,24 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+
 }
 
 .logo h2{
@@ -60,7 +78,7 @@ nav .menu a {
 }
 
 #banner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 47px 38px 0px 230px;
     display: flex;
     justify-content: space-between;
@@ -98,4 +116,30 @@ nav .menu a {
     max-width: 585px;
     vertical-align: middle;
     
+}
+
+#about {
+    padding-top: 130px;
+    
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 155px;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
 }
